@@ -4,7 +4,7 @@ from livekit import agents
 from livekit.agents import AgentServer, AgentSession, Agent, room_io, TurnHandlingOptions
 from livekit.plugins import ai_coustics, silero
 from livekit.plugins.turn_detector.multilingual import MultilingualModel
-
+from livekit.plugins import google as openai
 load_dotenv(".env.local")
 
 
